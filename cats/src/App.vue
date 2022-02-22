@@ -1,5 +1,5 @@
 <template>
-  <div id="App">
+  <div id="App" class="bgcolors">
     <nav class="navbar navbar-light bg-light">
       <div class="container-fluid d-flex justify-content-center">
         <a class="navbar-brand" href="#">Random Gif Cat</a>
@@ -135,6 +135,9 @@ export default {
   background-color: '';
   border-radius: 15px;
   border: .5px solid gray;
+}
+.bgcolors{
+  background-color: rgb(215, 248, 237);
 }
 
 input {
